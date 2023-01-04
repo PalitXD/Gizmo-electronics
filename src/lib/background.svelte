@@ -19,7 +19,7 @@
 <style>
 	canvas {
 		width: 100%;
-		height: 2000vh;
+		height: 220vh;
 		position: absolute;
 		z-index: -10;
 		

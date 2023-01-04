@@ -12,6 +12,7 @@
 <Background />
 <Nav />
 <Desc />
+<Text />
 
 <slot></slot>
 

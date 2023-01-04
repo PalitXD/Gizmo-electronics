@@ -70,6 +70,23 @@ function scrollFunction() {
   } else{
     document.getElementById("nav").style.padding = "30px 10px";
   }
+  
+  if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+    document.getElementById("title").style.opacity = "1";
+    document.getElementById("text").style.opacity = "1";
+
+  }else{
+    document.getElementById("title").style.opacity = "0";
+    document.getElementById("text").style.opacity = "0";
+
+  }
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    document.getElementById("contact").style.opacity = "1";
+    console.log("visible");
+  }else{
+    document.getElementById("contact").style.opacity = "0";
+
+  }
 }
 });
 </script>
