@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\lib",
+    "\\src\\routes",
+    "\\static",
+    "\\tests"
+  ],
+  "SelectedNode": "\\src\\lib\\nav.svelte",
+  "PreviewInSolutionExplorer": false
+}
